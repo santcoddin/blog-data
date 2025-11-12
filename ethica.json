@@ -1,0 +1,771 @@
+{
+    "nodes": [
+      {
+        "id": "E1def1",
+        "part": 1,
+        "kind": "definition",
+        "label": "Causa de si",
+        "text": "Por causa de si entendo aquilo cuja essência envolve a existência, ou seja, aquilo cuja natureza não pode ser concebida senão como existente."
+      },
+      {
+        "id": "E1def2",
+        "part": 1,
+        "kind": "definition",
+        "label": "Diz-se finita",
+        "text": "Diz-se finita em seu gênero aquela coisa que pode ser limitada por outra da mesma natureza. Por exemplo, diz-se que um corpo é finito porque sempre concebemos um outro maior. Da mesma maneira, um pensamento é limmitado por outro pensamento. Mas um corpo não é limitado por um pensamento, nem um pensamento por um corpo."
+      },
+      {
+        "id": "E1def3",
+        "part": 1,
+        "kind": "definition",
+        "label": "Substância",
+        "text": "Por substância compreendo aquilo que existe em si mesmo e que por si mesmo é concebido, isto é, aquilo cujo conceito não exige o conceito de outra coisa do qual deva ser formado."
+      },
+      {
+        "id": "E1def4",
+        "part": 1,
+        "kind": "definition",
+        "label": "Atributo",
+        "text": "Por atributo compreendo aquilo que, de uma substância, o intelecto percebe como constituindo sua essência."
+      },
+      {
+        "id": "E1def5",
+        "part": 1,
+        "kind": "definition",
+        "label": "Modo",
+        "text": "Por modo compreendo as afecções de uma substância, ou seja, aquilo que existe em outra coisa, por meio da qual é também concebido."
+      },
+      {
+        "id": "E1def6",
+        "part": 1,
+        "kind": "definition",
+        "label": "Deus",
+        "text": "Por Deus compreendo um ente absolutamente infinito, isto é, uma substância que consiste de infinitos atributos, cada um dos quais exprime uma essência eterna e infinita."
+      },
+      {
+        "id": "E1def7",
+        "part": 1,
+        "kind": "definition",
+        "label": "Liberdade",
+        "text": "Diz-se livre a coisa que existe exclusivamente pela necessidade de sua natureza e que por si só é determinada a agir. E diz-se necessária, ou melhor, coagida, aquela coisa que é determinada por outra a existir e a operar de maneira definida e determinada."
+      },
+      {
+        "id": "E1def8",
+        "part": 1,
+        "kind": "definition",
+        "label": "Eternidade",
+        "text": "Por eternidade compreendo a própria existência, enquanto concebida como se seguindo, necessariamente, apenas da definição de uma coisa eterna."
+      },
+      {
+        "id": "E1ax1",
+        "part": 1,
+        "kind": "axiom",
+        "label": "Tudo o que existe",
+        "text": "Tudo o que existe, existe ou em si mesmo ou em outra coisa."
+      },
+      {
+        "id": "E1ax2",
+        "part": 1,
+        "kind": "axiom",
+        "label": "Aquilo que não pode ser concebido",
+        "text": "Aquilo que não pode ser concebido por meio de outra coisa deve ser concebido por si mesmo."
+      },
+      {
+       "id": "E1ax3",
+       "part": 1,
+       "kind": "axiom",
+       "label": "Causa dada e determinada",
+       "text": "De uma causa dada e determinada segue-se necessariamente um efeito; e, inversamente, se não existe nenhuma causa determinada, é impossível que se siga um efeito."
+      },
+      {
+        "id": "E1ax4",
+        "part": 1,
+        "kind": "axiom",
+        "label": "Conhecimento do efeito e conhecimento da causa",
+        "text": "O conhecimento do efeito depende do conhecimento da causa e envolve este último."
+      },
+      {
+        "id": "E1ax5",
+        "part": 1,
+        "kind": "axiom",
+        "label": "Compreensão entre comum",
+        "text": "Não se pode compreender, uma por meio da outra, coisas que nada têm de comum entre si; ou seja, o conceito de uma não envolve o conceito da outra."
+      },
+      {
+        "id": "E1ax6",
+        "part": 1,
+        "kind": "axiom",
+        "label": "Ideia e ideado",
+        "text": "Uma ideia verdadeira deve concordar com o seu ideado."
+      },
+      {
+        "id": "E1ax7",
+        "part": 1,
+        "kind": "axiom",
+        "label": "Inexistência e existência",
+        "text": "Se uma coisa pode ser conecbida como inexistente, sua essência não envolve a existência."
+      },
+      {
+        "id": "E1p1",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Substância é por si",
+        "text": "Uma substância é, por natureza, primeira, relativamente às suas afecções.",
+        "refs": ["E1def3", "E1def5"]
+      },
+      {
+        "id": "E1p2",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Duas substâncias distintas não compartilham atributo",
+        "text": "Duas substâncias que têm atributos diferentes nada têm de comum entre si.",
+        "refs": ["E1def3"]
+      },
+      {
+        "id": "E1p3",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Comum e causa",
+        "text": "No caso de coisas que nada têm de comum entre si, uma não pode ser causa de outra.",
+        "refs": ["E1ax5", "E1ax4"]
+      },
+      {
+        "id": "E1p4",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Duas coisas distintas diferem por atributo ou afecção",
+        "text": "Duas ou mais coisas distintas distinguem-se entre si ou pela diferença dos atributos das substâncias ou pela diferença das afecções dessas substâncias.",
+        "refs": ["E1ax1", "E1def3", "E1def5", "E1def4"]
+      },
+      {
+        "id": "E1p5",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Unicidade das substâncias",
+        "text": "Não podem existir, na natureza das coisas, duas ou mais substâncias de mesma natureza ou de mesmo atributo.",
+        "refs": ["E1p4", "E1p1", "E1def3", "E1ax6"]
+      },
+      {
+        "id": "E1p6",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Unicidade das substâncias",
+        "text": "Uma substância não pode ser produzida por outra substância.",
+        "refs": ["E1p5", "E1p2", "E1p3"]
+      },
+      {
+        "id": "E1p6c",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário da sexta proposição da primeira parte",
+        "text": "Disso se segue que uma substância não pode ser produzida por outra coisa.",
+        "refs": ["E1p6","E1ax1", "E1def3", "E1def5", "E1p5"]
+      },
+      {
+        "id": "E1p7",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Natureza da substância",
+        "text": "À natureza de uma substância pertence o existir.",
+        "refs": ["E1p6c", "E1def1"]
+      },
+      {
+        "id": "E1p8",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Infinitude da substância",
+        "text": "Toda substância é necessariamente infinita.",
+        "refs": ["E1p5", "E1p7", "E1def2"]
+      },
+      {
+        "id": "E1p9",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Realidade da coisa é proporcional aos seus atributos",
+        "text": "Quanto mais realidade ou ser uma coisa tem, tanto mais atributos lhe competem.",
+        "refs": ["E1def4"]
+      },
+      {
+        "id": "E1p10",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Independência dos atributos",
+        "text": "Cada atributo de uma substância deve ser concebido por si mesmo.",
+        "refs": ["E1def4", "E1def3"]
+      },
+      {
+        "id": "E1p11",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Deus necessariamente existe",
+        "text": "Deus, ou seja, uma substância que consta de infinitos atributos, cada um dos quais exprime uma essência eterna e infinita, existe necessariamente.",
+        "refs": ["E1ax7", "E1p7"]
+      },
+      {
+        "id": "E1p12",
+        "part": 1,
+        "kind": "proposition",
+        "label": "A substância é indivísivel",
+        "text": "Não se pode verdadeiramente conceber nenhum atributo de uma substância do qual se siga que tal substância pode ser divida.",
+        "refs": ["E1p8", "E1p6", "E1p5", "E1p2", "E1def4", "E1p10", "E1p7"]
+      },
+      {
+        "id": "E1p13",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Infinito é indivisível",
+        "text": "Uma substância absolutamente infinita é indivisível.",
+        "refs": ["E1p5", "E1p11"]
+      },
+      {
+        "id": "E1p13c",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário da décima terceira proposição da primeira parte",
+        "text": "A substância é indivisível apenas pela consideração de que a sua natureza não pode ser concebida a não ser como infinita.",
+        "refs": ["E1p13", "E1p8"]
+      },
+      {
+        "id": "E1p14",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Deus, única substância existente e concebível",
+        "text": "Além de Deus, não pode existir nem ser concebida nenhuma substância.",
+        "refs": ["E1def6","E1p11", "E1p5"]
+      },
+      {
+        "id": "E1p14c1",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário primeiro da décima quarta proposição da primeira parte",
+        "text": "Deus é único.",
+        "refs": ["E1def6", "E1p10"]
+      },
+      {
+        "id": "E1p14c2",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário segundo da décima quarta proposição da primeira parte",
+        "text": "A coisa extensa e a coisa pensante ou são atributos de Deus ou são afecções dos atributos de Deus.",
+        "refs": ["E1p14", "E1ax1"]
+      },
+      {
+        "id": "E1p15",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Tudo existe em Deus",
+        "text": "Tudo o que existe, existe em Deus, e sem Deus, nada pode existir nem ser concebido.",
+        "refs": ["E1p4", "E1def3", "E1def5", "E1ax1"]
+      },
+      {
+        "id": "E1p16",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Da natureza divina segue infinitas coisas",
+        "text": "Da necessidade da natureza divina devem se seguir infinitas coisas, de infinitas maneiras (isto é, tudo o que pode ser abrangido sob um intelecto divino.",
+        "refs": ["E1def6"]
+      },
+      {
+        "id": "E1p16c1",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário primeiro da décima sexta proposição da primeira parte",
+        "text": "Deus é causa eficiente de todas as coisas que podem ser abrangidas sob um intelecto divino.",
+        "refs": ["E1p16"]
+      },
+      {
+        "id": "E1p16c2",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário segundo da décima sexta proposição da primeira parte",
+        "text": "Deus é causa por si mesmo e não por acidente.",
+        "refs": ["E1p16"]
+      },      
+      {
+        "id": "E1p16c3",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário terceiro da décima sexta proposição da primeira parte",
+        "text": "Deus é absolutamente causa primeira",
+        "refs": ["E1p16"]
+      },
+      {
+        "id": "E1p17",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Deus age por si só",
+        "text": "Deus age exclusivamente pelas leis de sua natureza e sem ser coagido por ninguém.",
+        "refs": ["E1p16", "E1p15"]
+      },
+      {
+        "id": "E1p17c1",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário primeiro da décima sétima proposição da primeira parte",
+        "text": "Não existe nenhuma causa que, extrínseca ou intrinsecamente, leve Deus a agir.",
+        "refs": ["E1p17"]
+      },
+      {
+        "id": "E1p17c2",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário segundo da décima sétima proposição da primeira parte",
+        "text": "Só Deus é Causa livre",
+        "refs": ["E1p11", "E1p14c1", "E1p16", "E1def7"]
+      },
+      {
+        "id": "E1p18",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Deus é causa imanente",
+        "text": "Deus é causa imanente, e não transitiva, de todas as coisas.",
+        "refs": ["E1p15", "E1p16c1", "E1p14", "E1def3"]
+      },
+      {
+        "id": "E1p19",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Deus é eterno",
+        "text": "Deus, ou dito de outra maneira, todos os atributos de Deus são eternos.",
+        "refs": ["E1def6", "E1p11", "E1p7", "E1def8", "E1def4", "E1p7"]
+      },
+      {
+        "id": "E1p20",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Existência e essência de Deus são a mesma coisa",
+        "text": "A existência de Deus e sua essência são uma única e mesma coisa.",
+        "refs": ["E1p19", "E1def8", "E1def4"]
+      },
+      {
+        "id": "E1p20c1",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário primeiro da vigésima proposição da primeira parte",
+        "text": "A existência de Deus e sua essência é uma verdade eterna.",
+        "refs": ["E1p20"]
+      },
+      {
+        "id": "E1p20c2",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário segundo da vigésima proposição da primeira parte",
+        "text": "Todos os atributos de Deus são imutáveis",
+        "refs": ["E1p20", "E1p19"]
+      },
+      {
+        "id": "E1p21",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Da natureza absoluta de um atributo de Deus é eterno e infinito",
+        "text": "Tudo o que se segue da natureza absoluta de um atributo de Deus deve ter sempre existido e ser infinito, ou seja, é por via desse atributo, eterno e infinito.",
+        "refs": ["E1p11", "E1def2", "E1p20c2"]
+      },
+      {
+        "id": "E1p22",
+        "part": 1,
+        "kind": "proposition",
+        "label": "só deus e espinosa sabem o que significa essa proposição",
+        "text": "Tudo o que se segue de algum atributo de Deus, enquanto este atributo é modificado por uma modificação tal que, por meio desse atributo, existe necessariamente e é infinita, deve também existir necessariamente e ser infinito.",
+        "refs": ["E1p11", "E1def2", "E1p20c2"]
+      },
+      {
+        "id": "E1p23",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Tudo essenciamente infinito segue da natureza de Deus",
+        "text": "Todo modo que existe necessariamente e é infinito deve ter necessariamente se seguido ou da natureza absoluta de um atributo de Deus ou de algum atributo modificado por uma modificação que existe necessariamente e é infinita.",
+        "refs": ["E1def5", "E1p15", "E1def8", "E1def6", "E1p19", "E1p21", "E1p22"]
+      },
+      {
+        "id": "E1p24",
+        "part": 1,
+        "kind": "proposition",
+        "label": "A essência das coisas produzidas por Deus não envolve a existência",
+        "text": "A essência das coisas produzidas por Deus não envolve a existência.",
+        "refs": ["E1def1"]
+      },      
+      {
+        "id": "E1p24c",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário segundo da vigésima proposição da primeira parte",
+        "text": "Deus é a causa de ser das coisas.", 
+        "refs": ["E1p24", "E1p14c1"]
+      },
+      {
+        "id": "E1p25",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Deus é causa eficiente da essência das coisas",
+        "text": "Deus é causa eficiente não apenas da existência das coisas, mas também de sua essência.",
+        "refs": ["E1ax1", "E1p15", "E1p16"]
+      },
+      {
+        "id": "E1p25c",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário da vigésima quinta proposição da primeira parte",
+        "text": "As coisas particulares nada mais são que afecções dos atributos de Deus.",
+        "refs": ["E1p25", "E1p15", "E1def5"]
+      },
+      {
+        "id": "E1p26",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Tudo opera determinadamente por Deus",
+        "text": "Uma coisa que é determinada a operar de alguma maneira foi necessariamente assim determinada por Deus; e a que não foi determinada por Deus não pode determinar a si própria a operar.",
+        "refs": ["E1p25", "E1p16"]
+      },
+      {
+        "id": "E1p27",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Tudo operado por Deus não converte indeterminadamente",
+        "text": "Uma coisa que é determinada por Deus a operar de alguma maneira não pode converter a si própria em indeterminada.",
+        "refs": ["E1ax3"]
+      },
+      {
+        "id": "E1p28",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Coisas singulares ou são determinadas por Deus à operar ou são determinadas por outras coisas singulares à operar",
+        "text": "Nenhuma coisa singular, ou seja, nenhuma coisa que é finita e tem uma existência determinada, pode existir nem ser determinada a operar, a não ser que seja determinada a existir e a operar por outra causa que também é finita e tem uma existência determinada; por sua vez, essa última causa tampouco pode existir nem ser determinada a operar a não ser por outra, a qual também é finita e tem uma existência determinada, e assim por diante, até o infinito.",
+        "refs": ["E1p26", "E1p24c", "E1p21", "E1ax1", "E1def3", "E1def5", "E1p25c", "E1p22", "E1p15"]
+      },
+      {
+        "id": "E1p29",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Nada é contingente",
+        "text": "Nada existe, na natureza das coisas, que seja contingente; em vez disso, tudo é determinado, pela necessidade da natureza divina, a existir e operar de uma maneira definida.",
+        "refs": ["E1p15", "E1p11", "E1p16", "E1p21", "E1p27", "E1p24c", "E1p26", "E1p27", "E1p14c1", "E1p17c2"]
+      },
+      {
+        "id": "E1p30",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Intelecto deve abranger atributos e afecções de Deus",
+        "text": "Um intelecto, seja ele finito ou infinito em ato, deve abranger os atributos de Deus e as afecções de Deus, e nada mais.",
+        "refs": ["E1ax6", "E1p14c1", "E1p15"]
+      },
+      {
+        "id": "E1p31",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Intelecto é referido a natureza naturada",
+        "text": "Um intelecto em ato, quer seja finito, quer seja infinito, tal como a vontade, o desejo, o amor, etc., deve estar referido à natureza naturada e não à natureza naturante.",
+        "refs": ["E1def5", "E1p15", "E1def6", "E1p29"]
+      },
+      {
+        "id": "E1p32",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Vontade é causa não-livre necessária",
+        "text": "A vontade não pode ser chamada causa livre, mas unicamente necessária.",
+        "refs": ["E1p28", "E1p23", "E1def7"]
+      },
+      {
+        "id": "E1p32c1",
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário primeiro da trigésima segunda proposição da primeira parte",
+        "text": "Deus não opera pela liberdade da vontade",
+        "refs": ["E1p32"]
+      },
+      {
+        "id": "E1p32c2", 
+        "part": 1,
+        "kind": "corollary",
+        "label": "Corolário segundo da trigésima segunda proposição da primeira parte",
+        "text": "A vontade não pertence à natureza de Deus mas tem, com esta natureza, a mesma relação que têm o movimento e o repouso e todas as outras coisas que se seguem da necessidade da natureza divina, e que são por ela determinadas a existir e a operar de uma maneira definida.",
+        "refs": ["E1p29", "E1p32"]
+      },
+      {
+        "id": "E1p33",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Tudo produzido por Deus necessariamente é o que é produzido por Deus",
+        "text": "As coisas não poderiam ter sido produzidas por Deus de nenhuma outra maneira nem em qualquer outra ordem que não naquelas em que foram produzidas.",
+        "refs": ["E1p16", "E1p29", "E1p11", "E1p14c1", "E1def7", "E1p17"]
+      },
+      {
+        "id": "E1p34",
+        "part": 1, 
+        "kind": "proposition",
+        "label": "A potência de Deus é sua própria essência",
+        "text": "A potência de Deus é sua própria essência.",
+        "refs": ["E1p11", "E1p16", "E1p16c1"]
+      },
+      {
+        "id": "E1p35",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Aquilo que concebemos no poder de Deus existe",
+        "text": "Tudo aquilo que concebemos como estando no poder de Deus existe necessariamente.",
+        "refs": ["E1p34"]
+      },
+      {
+        "id": "E1p36",
+        "part": 1,
+        "kind": "proposition",
+        "label": "Tudo o que existe deve seguir-se algum efeito",
+        "text": "Não existe nada de cuja natureza não se siga algum efeito.",
+        "refs": ["E1p25c", "E1p34", "E1p16"]
+      },
+      {
+        "id": "E2def1",
+        "part": 2,
+        "kind": "definition",
+        "label": "Definição de corpo",
+        "text": "Por corpo compreendo um modo que exprime, de uma maneira definida e determinada, a essência de Deus, enquanto considerada como coisa extensa.",
+        "refs": ["E1p25c"]
+      },
+      {
+        "id": "E2def2",
+        "part": 2,
+        "kind": "definition",
+        "label": "Definição de pertencer à essência",
+        "text": "Digo pertencer à essência de uma certa coisa aquilo que, se dado, a coisa é necessariamente posta e que, se retirado, a coisa é necessariamente retirada; em outras palavras, aquilo sem o qual a coisa não pode existir nem ser concebida e vice-versa, isto é, aquilo que sem a coisa não pode existir nem ser concebido."
+      },
+      {
+        "id": "E2def3",
+        "part": 2,
+        "kind": "definition",
+        "label": "Definição de ideia",
+        "text": "Por ideia compreendo um conceito da mente, que a mente forma porque é uma coisa pensante."
+      },
+      {
+        "id": "E2def4",
+        "part": 2,
+        "kind": "definition",
+        "label": "Definição de ideia adequada",
+        "text": "Por ideia adequada compreendo uma ideia que, enquanto considerada em si mesma, sem relação com o objeto, tem todas as propriedades ou denominações intrínsecas de uma ideia verdadeira."
+      },
+      {
+        "id": "E2def5",
+        "part": 2,
+        "kind": "definition",
+        "label": "Definição de duração",
+        "text": "A duração é a continuação indefinida do existir."
+      },
+      {
+        "id": "E2def6",
+        "part": 2,
+        "kind": "definition",
+        "label": "Definição de perfeição",
+        "text": "Por realidade e por perfeição compreendo a mesma coisa."
+      },
+      {
+        "id": "E2def7",
+        "part": 2,
+        "kind": "definition",
+        "label": "Definição de coisas singulares",
+        "text": "Por coisas singulares compreendo aquelas coisas que são finitas e que têm uma existência determinada. E se vários indivíduos contribuem para uma única ação, de maneira tal que sejam todos, em conjunto, a causa de um único efeito, considero-os todos, sob este aspecto, como uma única coisa singular."
+      },
+      {
+        "id": "E2ax1",
+        "part": 2,
+        "kind": "axiom",
+        "label": "Essência e existência",
+        "text": "A essência do homem não envolve a existência necessária, isto é, segundo a ordem da natureza tanto pode ocorrer que este ou aquele homem exista quanto que não exista."
+      },
+      {
+        "id": "E2ax2",
+        "part": 2,
+        "kind": "axiom",
+        "label": "O homem pensa",
+        "text": "O homem pensa."
+      },
+      {
+        "id": "E2ax3",
+        "part": 2,
+        "kind": "axiom",
+        "label": "Modos de pensar como afetos do ânimo",
+        "text": "Os modos do pensar tais como amor, o desejo, ou qualquer outro que se designa pelo nome de afeto do ânimo, não podem existir se não existir, no mesmo indivíduo, a ideia da coisa amada, desejada, etc. Uma ideia, em troca, pode existir ainda que não exista qualquer outro modo de pensar."
+      },
+      {
+        "id": "E2ax4",
+        "part": 2,
+        "kind": "axiom",
+        "label": "Corpo é multiplamente afetado",
+        "text": "Sentimos que um certo corpo é afetado de muitas maneiras."
+      },
+      {
+        "id": "E2ax5",
+        "part": 2,
+        "kind": "axiom",
+        "label": "veremos futuramente o q isso significa",
+        "text": "Não sentimos nem percebemos nenhuma outra coisa singular além dos corpos e dos modos de pensar."
+      },
+      {
+        "id": "E2p1",
+        "part": 2,
+        "kind": "proposition",
+        "label": "Deus é pensante",
+        "text": "O pensamento é um atributo de Deus, ou seja, Deus é uma coisa pensante.",
+        "refs": ["E1p25", "E1def5", "E1def6", "E1def4", "E1def6"]
+      },
+      {
+        "id": "E2p2",
+        "part": 2,
+        "kind": "proposition",
+        "label": "Deus é extenso",
+        "text": "A extensão é um atributo de Deus, ou seja, Deus é uma coisa extensa.",
+        "refs": ["E1p25", "E1def5", "E1def6", "E1def4", "E1def6"]
+      },
+      {
+        "id": "E2p3",
+        "part": 2,
+        "kind": "proposition",
+        "label": "A ideia da essência de Deus necessariamente existe",
+        "text": "Existe necessariamente, em Deus, uma ideia tanto de sua essência quanto de tudo o que necessariamente se segue dessa essência.",
+        "refs": ["E2p1", "E1p16", "E1p35", "E1p15", "E1p32c1", "E1p32c2", "E1p34"]
+      },
+      {
+        "id": "E2p4",
+        "part": 2,
+        "kind": "proposition",
+        "label": "A ideia de Deus só pode ser única",
+        "text": "A ideia de Deus, da qual se seguem infinitas coisas, de infinitas maneiras, só pode ser única.",
+        "refs": ["E1p30", "E1p14c1"]
+      },
+      {
+        "id": "E2p5",
+        "part": 2,
+        "kind": "proposition",
+        "label": "O ser formal das ideias reconhecem como sua causa eficiente seus ideados.",
+        "text": "O ser formal das ideias reconhece Deus como sua causa, enquanto Deus é considerado apenas como coisa pensante, e não enquanto é explicado por outro atributo. Isto é, as ideias, tanto dos atributos de Deus quanto das coisas singulares, reconhecem como sua causa eficiente não os seus ideados, ou seja, as coisas percebidas, mas o próprio Deus, enquanto coisa pensante.",
+        "refs": ["E2p3", "E1p25c", "E1p10", "E1ax4"]
+      },
+      {
+        "id": "E2p6",
+        "part": 2,
+        "kind": "proposition",
+        "label": "Enquanto considerado exclusivamente sob o atributo do qual é modo, o modo de cada atributo envolve o conceito de seu próprio atributo",
+        "text": "Os modos de qualquer atributo têm Deus por causa, enquanto ele é considerado exclusivamente sob o atributo do qual eles são modos e não enquanto é considerado sob algum outro atributo.",
+        "refs": ["E1p10", "E1ax4"]
+      },
+      {
+        "id": "E2p6c",
+        "part": 2,
+        "kind": "proposition",
+        "label": "Corolário da sexta proposição da segunda parte",
+        "text": "As coisas ideadas se seguem e se deduzem de seus respectivos atributos.",
+        "refs": ["E2p6"]
+      },
+      {
+        "id": "E2p7",
+        "part": 2,
+        "kind": "proposition",
+        "label": "A ordem e a conexão das ideias é o mesmo que a ordem e a conexão das coisas",
+        "text": "A ordem e aconexão das ideias é o mesmo que a ordem e a conexão das coisas.",
+        "refs": ["E1ax4"]
+      },
+      {
+        "id": "E2p7c",
+        "part": 2,
+        "kind": "corollary",
+        "label": "Corolário da sétima proposição da seguma parte",
+        "text": "A potência de pensar de Deus é igual à sua potência atual de agir.",
+        "refs": ["E2p7"]
+      },
+      {
+        "id": "E2p8",
+        "part": 2,
+        "kind": "proposition",
+        "label": "AS ideias das coisas singulares não existentes devem estar compreendida na ideia infinita de Deus",
+        "text": "As ideias das coisas singulares não existentes, ou seja, dos modos não existentes, devem estar compreendidas na ideia infinita de Deus, da mesma maneira que as essências formais das coisas singulares, ou seja, dos modos, estão contidas nos atributos de Deus.",
+        "refs": ["E2p7"]
+      },
+      {
+        "id": "E2p8c",
+        "part": 2,
+        "kind": "corollary",
+        "label": "Corolário da oitava proposição da segunda parte",
+        "text": "À medida que as coisas singulares não existem a não ser enquanto estão compreendidas nos atributos de Deus, suas ideias não existem a não ser enquanto existe a ideia infinita de Deus; e, quando que se diz que as coisas singulares existem, não apenas enquanto estão compreendidas nos atributos de Deus, mas também enquanto se diz que duram, as suas ideias envolverão também a existência.",
+        "refs": ["E2p8"]
+      },
+      {
+        "id": "E2p9",
+        "part": 2,
+        "kind": "proposition",
+        "label": "A ideia de uma coisa singular existente em ato tem Deus como causa",
+        "text": "A ideia de uma coisa singular existente em ato tem Deus como causa, não enquanto ele é infinito, mas enquanto é considerado como afetado de outra ideia de uma coisa singular existente em ato, ideia da qual Deus é também a causa, enquanto é afetado de uma terceira ideia, e assim até o infinito.",
+        "refs": ["E2p8c", "E2p8", "E1p28", "E2p7"]
+      },
+      {
+        "id": "E2p9c",
+        "part": 2,
+        "kind": "corollary",
+        "label": "Corolário da nona proposição da segunda parte",
+        "text": "De tudo o que acontece no objeto singular de uma ideia existe o conhecimento em Deus, enquanto ele tem unicamente a ideia desse objeto.",
+        "refs": ["E2p3", "E2p8", "E2p7", "E2p9"]
+      },
+      {
+        "id": "E2p10",
+        "part": 2,
+        "kind": "proposition",
+        "label": "A substância não constitui a forma do homem",
+        "text": "A essência do homem não pertence o ser da substância, ou seja, a substância não constitui a forma do homem.",
+        "refs": ["E1p7", "E2def2", "E2ax1"]
+      },
+      {
+        "id": "E2p10c",
+        "part": 2,
+        "kind": "corollary",
+        "label": "Corolário da décima proposição da segunda parte",
+        "text": "A essência do homem é constituída por modificações definidas dos atributos de Deus.",
+        "refs": ["E2p10", "E2p9", "E1p15", "E1p25c"]
+      },
+      {
+        "id": "E2p11",
+        "part": 2,
+        "kind": "proposition",
+        "label": "Ideia de uma coisa singular existente em ato é primeira na mente",
+        "text": "O que, primeiramente, constitui o ser atual da mente humana não é senão a ideia de uma coisa singular existente em ato.",
+        "refs": ["E2p10c", "E2ax3", "E2ax2", "E2p8c", "E1p21", "E1p22", "E2ax1"]
+      },
+      {
+        "id": "E2p11c",
+        "part": 2,
+        "kind": "corollary",
+        "label": "Corolário da décima primeira proposição da segunda parte",
+        "text": "A mente humana é uma parte do intelecto infinito de Deus.",
+        "refs": ["E2p11"]
+      },
+      {
+        "id": "E2p12",
+        "part": 2,
+        "kind": "proposition",
+        "label": "Se o objeto da ideia que constitui a mente humana é um corpo, nada poderá acontecer nesse corpo que não seja percebido pela mente",
+        "text": "Tudo aquilo que acontece no objeto da ideia que constitui a mente humana deve ser percebido pela mente humana, ou seja, a ideia daquilo que acontece nesse objeto existirá necessariamente na mente; isto é, se o objeto da ideia que constitui a mente humana é um corpo, nada poderá acontecer nesse corpo que não seja percebido pela mente.",
+        "refs": ["E2p9c", "E2p11", "E2p11c", "E2p7c"]
+      },
+      {
+        "id": "E2p13",
+        "part": 2,
+        "kind": "proposition",
+        "label": "O objeto da ideia que constitui a mente humana é o corpo",
+        "text": "O objeto da ideia que constitui a mente humana é o corpo, ou seja, um modo definido da extensão, existente em ato, e nenhuma outra coisa.",
+        "refs": ["E2p9c", "E2p11c", "E2ax4", "E2p11", "E1p36", "E2p12", "E2ax5"]
+      },
+      {
+        "id": "E2p13c",
+        "part": 2,
+        "kind": "corollary",
+        "label": "Corolário da décima terceira proposição da segunda parte",
+        "text": "O homem consiste de uma mente e de um corpo, e o corpo humano existe tal como o sentimos.",
+        "refs": ["E2p13"]
+      },
+      {
+        "id": "E2p14",
+        "part": 2,
+        "kind": "proposition",
+        "label": "A mente humana é capaz de perceber muitas coisas",
+        "text": "A mente humana é capaz de perceber muitas coisas, e é tanto mais capaz quanto maior for o número de maneiras pelas quais seu corpo pode ser arranjado.",
+        "refs": ["E2p12"]
+      }    
+    ]
+  }
+  
