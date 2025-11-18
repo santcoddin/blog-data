@@ -1,1 +1,35 @@
-
+{
+  "nodes": [
+    {
+      "id": "T1def1",
+      "kind": "definição",
+      "label": "Por causa de si",
+      "text": "Por causa de si entendo...",
+      "refs": ["T1ax1"]
+    },
+    {
+      "id": "T1ax1",
+      "kind": "axioma",
+      "label": "Aquilo que não pode ser concebido",
+      "text": "Aquilo que não pode ser concebido...",
+      "refs": ["T1p1"]
+    },
+    {
+      "id": "T1p1",
+      "kind": "proposição",
+      "label": "Substância é por si",
+      "text": "Uma substância é, por natureza, primeira, relativamente às suas afecções."
+      "refs": ["T1p1c"]
+    },
+    {
+      "id": "T1p1c",
+      "kind": "corolário",
+      "label": "Exemplo de corolário",
+      "text": "Exemplo"
+      "refs": ["T1def1"]
+    }
+  ]
+}
+    
+    
+    
